@@ -17,8 +17,8 @@ body{
 
 .wrapper{
     width:420px;
-    background: transparent;
-    color:black;
+    background: red;
+    color:white;
     border-radius: 20px;
     padding: 30px 40px;
     border: 2px solid lightgrey;
@@ -46,13 +46,13 @@ body{
     border: 2px solid lightgrey;
     border-radius: 40px;
     font-size:16px;
-    color: black;
+    color: white;
     padding: 20px 45px 20px 20px;
 }
 
 
 .input-box input::placeholder{
-    color:black;
+    color:white;
 }
 
 .input-box i {
@@ -71,12 +71,12 @@ body{
 }
 
 .remember-forgot label input{
-    accent-color: black;
+    accent-color: white;
     margin-right: 3px;
 }
 
 .remember-forgot a{
-    color:black;
+    color:white;
     text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ body{
 }
 
 .register p a {
-    color:black;
+    color:white;
     text-decoration: none;
     font-weight: 600;
 }
