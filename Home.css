@@ -5,7 +5,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    background-color: #4287f5;
+    background-color: #7789BC;
 }
 
 nav{
@@ -75,21 +75,71 @@ nav{
 
 .slogan{
     width: 100%;
-    height:600px;
+    height:500px;
     display:flex;
     justify-content: space-between;
     padding: 100px;
-    border: 1px solid black;
 }
 
 #header{
     font-family: 'Times New Roman', Times, serif;
-    font-size:140px;
+    font-size:120px;
     color:#fff;
     width:50%;
 }
+img{
+    width: 100%;
+    height: 100%;
+}
+#Picture{
+    width: 35%;
+    height: 300px;
+}
 
-#picture{
-    width:50%;
-    border: 1px solid black;
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:#b00b0b;
+    padding:20px;
+}
+
+.main{
+    border:1px solid black;
+    height: 2000px;
+}
+
+.Best{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.jacket{
+    height: 390px;
+    width: 300px;
+    border: 2px groove grey;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.jacket .Winter{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.jacket .win{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    border: 1px groove goldenrod;
+    border-radius: 20px;
+    background-color: orange;
+    height:20px;
+}
+
+.jacket .win a{
+    text-decoration: none;
+    color:white;
 }
